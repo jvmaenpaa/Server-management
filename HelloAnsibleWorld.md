@@ -38,7 +38,7 @@ Tero mentioned the warning after the `ansible all -a 'uptime' -i hosts.ini` comm
 
 After I took care of the warning I created the site.yml -file to determine what computers get which roles. Content of the file are below: 
 
-      - - hosts: all
+      - hosts: all
           roles:
             - hello
 
