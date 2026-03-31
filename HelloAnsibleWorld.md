@@ -63,9 +63,15 @@ As you can see there is one changed which means that it has changed the file on 
 
 And it worked like I hoped it would!
 
-I then tried to make one more convenient change regarding Ansible and it's output. As you saw earlier when I ran the
+I then tried to make one more convenient change regarding Ansible and it's output. As you saw earlier when I ran the `ansible-playbook site.yml` command that the output didn´t really tell us that much about what was happening. So I added one more line to the ansible.cfg file. The line is highlighted on the screenshot below.
 
+<img width="326" height="129" alt="Screenshot 2026-03-31 173551" src="https://github.com/user-attachments/assets/979fd2a2-1994-41f2-876b-7032152795da" />
+
+And what this line does is that it makes ansible print the full task arguments to stdout(=standard output).
 
 
 ## Sources:
-https://medium.com/@marouanetester/ansible-what-it-is-and-why-you-need-it-853f2a5f5f17
+Instructions: - https://terokarvinen.com/palvelinten-hallinta/
+              - https://terokarvinen.com/hello-ansible/
+              - https://terokarvinen.com/ssh-public-key-login-without-password/
+Ansible definition: - https://medium.com/@marouanetester/ansible-what-it-is-and-why-you-need-it-853f2a5f5f17
