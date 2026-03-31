@@ -15,7 +15,7 @@
      - 'roles' directory has all the configured things we want to do on computers we have selected
 
 ## a) Sshecrets. Install SSH-daemon and test it by logging in with SSH
-I started by updating the packets and then downloading ssh with the command 'sudo apt-get -y install ssh'.
+I started by updating the packets and then downloading ssh with the command ´sudo apt-get -y install ssh´.
 
 
 ## Sources:
