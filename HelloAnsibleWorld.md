@@ -55,6 +55,9 @@ After this I was ready to test it. I ran the playbook and this is what I got.
 
 As you can see there is one changed which means that it has changed the file on the slave. I decided to go over to the slave (localhost) and try to print the contents of the file and see what is going on. 
 
+<img width="939" height="278" alt="image" src="https://github.com/user-attachments/assets/69a30b88-80b0-41c2-8477-aff4cb6be74e" />
+
+And it worked like I hoped it would!
 
 
 
