@@ -49,6 +49,16 @@ This means that all computer in the hosts.ini -file are appointed the role hello
         dest: /tmp/hello-ansible
         content: "Hello Ansible world!\n"
 
+After this I was ready to test it. I ran the playbook and this is what I got.
+
+<img width="1172" height="241" alt="image" src="https://github.com/user-attachments/assets/842b9960-c50e-4079-aaaf-9f40a3c41b56" />
+
+As you can see there is one changed which means that it has changed the file on the slave. I decided to go over to the slave (localhost) and try to print the contents of the file and see what is going on. 
+
+
+
+
+
 
 ## Sources:
 https://medium.com/@marouanetester/ansible-what-it-is-and-why-you-need-it-853f2a5f5f17
