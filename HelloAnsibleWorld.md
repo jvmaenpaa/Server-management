@@ -26,7 +26,7 @@ As you saw on the previous step I had to insert password when connecting to loca
 <img width="1199" height="878" alt="Screenshot 2026-03-31 150844" src="https://github.com/user-attachments/assets/d26c221f-029a-4014-b770-e4181ff86680" />
 
 
-## Hello Ansible. Make hello world with ansible and try it over SSH.
+## c) Hello Ansible. Make hello world with ansible and try it over SSH.
 I first made the directories needed in this part of the assignment with the command `mkdir -p ansible/roles/hello/tasks/`. In the instructions these were made separately in stages but I just thought by making these all first would be easier. Then I made the hosts.ini file and added localhost in it. After these I tested ansible and it seem like it was working (screenshot below).
 
 <img width="1901" height="324" alt="image" src="https://github.com/user-attachments/assets/52d13f5a-9c54-4b4b-92a6-176122f8899b" />
@@ -43,7 +43,12 @@ After I took care of the warning I created the site.yml -file to determine what 
             - hello
 
 
-This means that all computer in the hosts.ini -file are appointed the role hello. Then I had to create the role or the contents of it. And the content is put in to main.yml -file in the tasks directory.j
+This means that all computer in the hosts.ini -file are appointed the role hello. Then I had to create the role or the contents of it. And the content is put in to main.yml -file in the tasks directory.
+
+    - copy: 
+        dest: /tmp/hello-ansible
+        content: "Hello Ansible world!\n"
+
 
 ## Sources:
 https://medium.com/@marouanetester/ansible-what-it-is-and-why-you-need-it-853f2a5f5f17
