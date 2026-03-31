@@ -20,10 +20,14 @@ I started by updating the packets and then downloading ssh with the command `sud
 <img width="944" height="394" alt="image" src="https://github.com/user-attachments/assets/f6edfb6a-8346-4630-bfb7-4ebe77ab4bc8" />
 
 ## b) Pubkey. Automate SSH login with the public key.
-As you saw on the previous step I had to insert password when connecting to localhost via SSH. It was time to change that. All I had to do was generate a key pair and copy the pubkey to the host I connected to before. The pubkey is added to .ssh/authorized_keys file on the localhost. 
+As you saw on the previous step I had to insert password when connecting to localhost via SSH. It was time to change that. All I had to do was generate a key pair and copy the pubkey to the host I connected to before. The pubkey is added to .ssh/authorized_keys file on the localhost. Commands used are highlighted with pink.
 
 
 <img width="1199" height="878" alt="Screenshot 2026-03-31 150844" src="https://github.com/user-attachments/assets/d26c221f-029a-4014-b770-e4181ff86680" />
+
+
+## Hello Ansible. Make hello world with ansible and try it over SSH.
+
 
 
 ## Sources:
