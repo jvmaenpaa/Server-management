@@ -15,7 +15,7 @@
      - 'roles' directory has all the configured things we want to do on computers we have selected
 
 ## a) Sshecrets. Install SSH-daemon and test it by logging in with SSH
-I started by updating the packets and then downloading ssh with the command `sudo apt-get -y install ssh`. After that I made the daemon start on boot and started it with the command `sudo systemctl enable --now ssh`. Then I had to test it that it worked and on the screen shot belowe you can see that i didn´t run into any problems. For now.
+I started by updating the packets and then downloading ssh with the command `sudo apt-get -y install ssh`. After that I made the daemon start on boot and started it with the command `sudo systemctl enable --now ssh`. Then I had to test it that it worked and on the screenshot below you can see that i didn´t run into any problems. For now.
 
 <img width="944" height="394" alt="image" src="https://github.com/user-attachments/assets/f6edfb6a-8346-4630-bfb7-4ebe77ab4bc8" />
 
@@ -27,6 +27,10 @@ As you saw on the previous step I had to insert password when connecting to loca
 
 
 ## Hello Ansible. Make hello world with ansible and try it over SSH.
+I first made the directories needed in this part of the assignment with the command `mkdir -p ansible/roles/hello/tasks/`. In the instructions these were made separately in stages but I just thought by making these all first would be easier. Then I made the hosts.ini file and added localhost in it. After these I tested ansible and it seem like it was working (screenshot below).
+
+<img width="1901" height="324" alt="image" src="https://github.com/user-attachments/assets/52d13f5a-9c54-4b4b-92a6-176122f8899b" />
+
 
 
 
