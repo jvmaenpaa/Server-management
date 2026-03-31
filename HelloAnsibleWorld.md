@@ -38,8 +38,9 @@ Tero mentioned the warning after the `ansible all -a 'uptime' -i hosts.ini` comm
 
 
 
-After I took care of the warning I made a ansible.cfg file and added the hosts.ini file to it so I don´t have to add it to every 'ansible' and 'ansible-playbook' command. 
-I created the site.yml -file to determine what computers get which roles. Content of the file are below: 
+After I took care of the warning I made a ansible.cfg file and added the hosts.ini file to it so I don´t have to add it to every 'ansible' and 'ansible-playbook' command. Try to spot the difference between the previous screenshot and the one coming up.
+
+Then I had to create the site.yml -file to determine what computers get which roles. Content of the file are below: 
 
       - hosts: all
         roles:
