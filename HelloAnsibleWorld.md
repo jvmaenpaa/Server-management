@@ -31,6 +31,13 @@ I first made the directories needed in this part of the assignment with the comm
 
 <img width="1901" height="324" alt="image" src="https://github.com/user-attachments/assets/52d13f5a-9c54-4b4b-92a6-176122f8899b" />
 
+Tero mentioned the warning after the `ansible all -a 'uptime' -i hosts.ini` command. And what it means is that Ansible is using Python interpreter (version 3.13) and this might change if I would install another Python version. So I don´t want to see the warning everytime I run the command so I added it as a variable to the hosts.ini -file. And when I ran the command again the warning was gone and the output much nicer to look at. 
+
+<img width="474" height="141" alt="Screenshot 2026-03-31 152829" src="https://github.com/user-attachments/assets/0cf27cb8-9f1d-48f1-93a6-eed42f9b0d69" />
+<img width="627" height="101" alt="Screenshot 2026-03-31 152911" src="https://github.com/user-attachments/assets/c7c4ebad-e1ec-4665-b0bd-0809fba4c48a" />
+
+
+
 
 
 
