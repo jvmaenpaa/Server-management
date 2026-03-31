@@ -43,7 +43,7 @@ After I took care of the warning I created the site.yml -file to determine what 
             - hello
 
 
-
+This means that all computer in the hosts.ini -file are appointed the role hello. Then I had to create the role or the contents of it. And the content is put in to main.yml -file in the tasks directory.j
 
 ## Sources:
 https://medium.com/@marouanetester/ansible-what-it-is-and-why-you-need-it-853f2a5f5f17
