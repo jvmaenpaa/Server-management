@@ -74,4 +74,6 @@ And what this line does is that it makes ansible print the full task arguments t
 Instructions: - https://terokarvinen.com/palvelinten-hallinta/
               - https://terokarvinen.com/hello-ansible/
               - https://terokarvinen.com/ssh-public-key-login-without-password/
+
+              
 Ansible definition: - https://medium.com/@marouanetester/ansible-what-it-is-and-why-you-need-it-853f2a5f5f17
